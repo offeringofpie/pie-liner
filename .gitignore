@@ -1,0 +1,18 @@
+._*
+.apdisk
+.AppleDB
+.AppleDesktop
+.com.apple.timemachine.donotpresent
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+*.log
+Icon
+logs
+Network Trash Folder
+node_modules
+public/
+Temporary Items

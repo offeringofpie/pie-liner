@@ -1,0 +1,26 @@
+{
+  "name": "pie-liner",
+  "version": "0.0.1",
+  "description": "Inspects stuff in the current stuff",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/offeringofpie/pie-liner.git"
+  },
+  "keywords": [
+    "video",
+    "pie",
+    "youtube",
+    "js",
+    "javascript"
+  ],
+  "author": "J. Lopes <mail@jlopes.eu>",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/offeringofpie/pie-liner/issues"
+  },
+  "homepage": "https://github.com/offeringofpie/pie-liner#readme"
+}
