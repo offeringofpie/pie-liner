@@ -1,8 +1,9 @@
 import { html, render } from 'lit-html';
+import '@/components/title';
 
 const template = name => {
   return html`
-    <p>Hello ${name}</p>
+    <name-tag name="${name}"></name-tag>
   `;
 };
 

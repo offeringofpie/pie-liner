@@ -32,9 +32,9 @@ module.exports = (env, argv) => {
       index: './src/index.js'
     },
     output: {
-      filename: '[name].[contentHash:3].js',
+      filename: '[name].[hash:3].js',
       path: path.resolve(__dirname, 'docs'),
-      publicPath: './'
+      publicPath: argv.mode == 'production' ? './' : '/'
     },
     resolve: {
       extensions: ['.ts', '.js', '.jsx', '.tsx', '.css'],
