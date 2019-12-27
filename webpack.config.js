@@ -32,9 +32,9 @@ module.exports = (env, argv) => {
       index: './src/index.js'
     },
     output: {
-      filename: '[name].js',
+      filename: '[name].[contentHash:3].js',
       path: path.resolve(__dirname, 'docs'),
-      publicPath: '/'
+      publicPath: './'
     },
     resolve: {
       extensions: ['.ts', '.js', '.jsx', '.tsx', '.css'],
@@ -91,8 +91,7 @@ module.exports = (env, argv) => {
         template: 'src/index.html',
         meta: {
           viewport: 'width=device-width, initial-scale=1'
-        },
-        excludeAssets: [/admin.*/, '/src/js/services/sw.js', '/worker.js']
+        }
       })
     ],
     performance: {

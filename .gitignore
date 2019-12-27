@@ -15,3 +15,4 @@ logs
 Network Trash Folder
 node_modules
 Temporary Items
+docs/**/*.LICENSE
